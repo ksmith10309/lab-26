@@ -1,44 +1,37 @@
-![CF](http://i.imgur.com/7v5ASc8.png) LAB
+![CF](http://i.imgur.com/7v5ASc8.png) LAB 26
 =================================================
 
-## Project Name
+## Component Based UI
 
-### Author: Student/Group Name
+### Author: Katherine Smith
 
 ### Links and Resources
-* [repo](http://xyz.com)
-* [travis](http://xyz.com)
-* [back-end](http://xyz.com)
-* [front-end](http://xyz.com)
+* [Sandbox](https://codesandbox.io/s/4jrp09z0x9)
 
 ### Modules
 
-#### `modulename.js`
-##### Exported Values and Methods
+#### `App.js`
+##### Contains the Counter React component
+##### Contains and exports the App React component
 
-###### `foo(thing) -> string`
-Usage Notes or examples
+##### Counter component
 
-###### `bar(array) -> array`
-Usage Notes or examples
+- ##### Implements event listeners to increment and decrement the count on click. Implements a render() method to display the count and counter buttons.
 
+##### App component
+- ##### Implements a render() method to display the header, counter, and footer. The header, counter, and footer are grouped together using a fragment.
 
-### Setup
-#### `.env` requirements
-* `PORT` - Port Number
-* `MONGODB_URI` - URL to the running mongo instance/db
+#### `Header.js`
+##### Contains and exports the Header React component
 
-#### Running the app
-* `npm start`
-* Endpoint: `/foo/bar/`
-  * Returns a JSON object with abc in it.
-* Endpoint: `/bing/zing/`
-  * Returns a JSON object with xyz in it.
+##### Header component
+- ##### Implements a render() method to display the header.
 
-#### Tests
-* How do you run tests?
-* What assertions were made?
-* What assertions need to be / should be made?
+#### `Footer.js`
+##### Contains and exports the Footer React component
+
+##### Footer component
+- ##### Implements a render() method to display the footer.
 
 #### UML
-Link to an image of the UML for your application and response to events
+![lab-26.jpg](./lab-26.jpg)
